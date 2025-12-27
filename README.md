@@ -1,0 +1,2 @@
+# Ultra-Lightweight-Client-Side-AI-for-Voice-Interview-Summaries
+This project demonstrates a fully client-side AI system that generates real-time summaries and filler phrases for automated voice interviews, running entirely in the browser using ONNX + WebAssembly (WASM).  The solution works offline, loads quickly, and produces summaries with no noticeable delay, Need to make it suitable for real-time
