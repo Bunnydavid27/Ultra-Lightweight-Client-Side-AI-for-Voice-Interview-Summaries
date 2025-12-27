@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ONNX Summarizer</title>
+</head>
+<body>
+  <h2>Client-side Summarizer</h2>
+
+  <textarea id="input" rows="6" cols="60">
+This meeting discussed project deadlines and risks.
+  </textarea>
+
+  <br><br>
+  <button onclick="run()">Summarize</button>
+
+  <h3>Summary</h3>
+  <pre id="output"></pre>
+
+  <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@xenova/transformers/dist/transformers.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
